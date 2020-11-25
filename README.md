@@ -1,6 +1,12 @@
 # [Memories](https://memo-ery.herokuapp.com/)
 
-This is website made with technologies HTML, CSS, JavaScript, NodeJs, ExpressJs, EJs.
+This is website made with technologies 
+* HTML
+* CSS
+* JavaScript
+* NodeJs
+* ExpressJs
+* EJs
 
 Purpose - You can get to know how many of your friends remember your first meeting.
 
