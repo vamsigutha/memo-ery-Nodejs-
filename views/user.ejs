@@ -1,0 +1,23 @@
+<%- include("particles/header"); -%>
+ <div class="content">
+   <p>Your link is ready!!!</p>
+ </div>
+    <div class="input">
+     <input id="url-input" type="text" name="" value="/<%= id %>/answer">
+     <div class="btn btn-small copy-btn">
+       <button id="copy-button" type="button" name="button">copy</button>
+     </div>
+    </div>
+
+    <button class="link" style="margin:30px;background:#e9a685;padding:10px;border:none;">
+      <a href="" data-action="share/whatsapp/share" style="text-decoration:none;background-color:#e9a685;color:white;font-size:1rem;">Share to whatsapp</a>
+
+    </button>
+
+   <div class="btn btn-medium">
+    <button type="button" name="button"><a href="/user/<%= id %>">Get Results</a></button>
+   </div>
+
+   <script src="/javascripts/userClient.js" charset="utf-8"></script>
+
+<%- include("particles/footer"); -%>

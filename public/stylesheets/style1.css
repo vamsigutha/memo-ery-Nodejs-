@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Poppins';
+  background-color: #37393d;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  justify-content: center;
+  color:#e9a685;
+  text-align: center;
+  font-size: 50px;
+}
+.heading p{
+  text-align:center;
+    color:#e9a685;
+margin-top:-50px;
+}
+.content p{
+  color:#ffffff;
+  text-transform:capitalize;
+  text-align:center;
+  margin-top: 50px;
+}
+.btn button, .btn button a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:#ffffff;
+  background-color: #e9a685;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+.btn{
+  text-align:center;
+  margin-top:30px;
+}
+.btn-medium button, .btn-medium button a{
+  font-size: 1rem;
+}
+.btn-small button, .btn-small button a{
+  font-size: 1rem;
+}
+.copy-btn{
+  margin-top:0;
+  margin-left:10px;
+  text-align: left;
+}
+.input{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px;
+
+}
+.input input{
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border:none;
+}
+
+.question{
+height:150px;
+margin-left: auto;
+margin-right:auto;
+max-width:300px;
+  border:1px solid #e9a685;
+  box-shadow: 3px 3px #e9a685;;
+}
+.no-results ul li{
+  color:white;
+  font-size: 1rem;
+  padding:10px;
+  margin-left:40px;
+}
+.no-results h2{
+  text-align: left;
+
+  margin-left: 40px;
+  color: #e9a685;
+}
+.no-results-p{
+  margin-top:10vh;
+  font-size: 2rem;
+
+}
+.results{
+  color: white;
+  width:300px;
+
+}
+.results p{
+  width:280px;
+  text-align:justify;
+  hyphens: auto;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top:40px;
+}
+.form input{
+  margin-bottom: 30px;
+
+}
+.form label{
+  color: #e9a685;
+}
+.form input:focus,textarea:focus{
+   outline-color: #e9a685;
+}
+hr{
+  border-width:0;
+  height:1px;
+  color:#e9a685;
+  background-color: #e9a685;
+}
+h3{
+  color:#e9a685;
+}
+
+
+.footer{
+display: flex;
+justify-content: center;
+background-color: #e9a685;
+position: fixed;
+width:100%;
+padding:15px;
+ bottom: 0px;
+}
+.footer a{
+  color: #ffffff;
+text-decoration: none;
+
+text-transform: capitalize;
+padding: 5px;
+
+
+}
